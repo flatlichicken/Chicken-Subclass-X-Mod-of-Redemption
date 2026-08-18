@@ -19,17 +19,16 @@
     "Content\\Projectiles\\ChickenWalkerProjectile2.cs": "Chickensubclass.Content.Projectiles",
     "Content\\Projectiles\\FeatherAimIndecator.cs": "Chickensubclass.Content.Projectiles",
     "Content\\Items\\ChickenJockey.cs": "Chickensubclass.Content.Items",
-    "Content\\Items\\Accessories\\ChickenOrb.cs": "Chickensubclass.Content.Items.Accessories",
-    "Content\\Items\\Accessories\\ChickenOrbLogic.cs": "Chickensubclass.Content.Items.Accessories",
     "Content\\Items\\GreatChickenTrophy.cs": "Chickensubclass.Content.Items",
     "Content\\Tiles\\GreatChickenTrophyTile.cs": "Chickensubclass.Content.Tiles",
     "Content\\Items\\SusEgg.cs": "Chickensubclass.Content.Items",
     "Content\\Buffs\\ChickenPoison.cs": "Chickensubclass.Content.Buffs",
     "Content\\Buffs\\ChickenVenom.cs": "Chickensubclass.Content.Buffs",
-    "Content\\Items\\Accessories\\FlockEmblem.cs": "Chickensubclass.Content.Items.Accessories",
     "Content\\Tiles\\SoulBottleChickenTile.cs": "Chickensubclass.Content.Tiles",
     "Content\\Items\\SoulBottleChicken.cs": "Chickensubclass.Content.Items",
     "Content\\NPCs\\Chickemonium.cs": "Chickensubclass.Content.NPCs",
-    "Content\\MoREnemyDropChanges.cs": "Chickensubclass.Content"
+    "Content\\MoREnemyDropChanges.cs": "Chickensubclass.Content",
+    "Content\\MoRChickenWeaponDamageBoost.cs": "Chickensubclass.Content",
+    "Content\\Items\\Accessories\\EggShelldChange.cs": "Chickensubclass.Content.Items.Accessories"
   }
 }
