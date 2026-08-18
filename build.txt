@@ -1,0 +1,6 @@
+displayName = Chicken Subclass X Mod of Redemption
+author = Flatlichicken
+version = 1.0
+
+modReferences = Chickensubclass
+modReferences = Redemption
