@@ -1,6 +1,10 @@
 {
   "rootNamespace": "ChickensubclassXRedemption",
   "fileMap": {
-
+    "Content\\MoREnemyDropChanges.cs": "ChickensubclassXRedemption.Content",
+    "Content\\MoRChickenWeaponDamageBoost.cs": "ChickensubclassXRedemption.Content",
+    "Content\\Items\\Accessories\\EggShelldChange.cs": "ChickensubclassXRedemption.Content.Items.Accessories",
+    "Content\\Items\\ItemRecipeChanges.cs": "ChickensubclassXRedemption.Content.Items",
+    "Content\\ChickenCoopChange.cs": "ChickensubclassXRedemption.Content"
   }
 }

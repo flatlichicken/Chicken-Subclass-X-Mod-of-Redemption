@@ -5,9 +5,9 @@ using Terraria.ModLoader;
 using ChickensubclassXRedemption.Content.Items;
 using Chickensubclass.Content.Items;
 
-namespace ChickensubclassXRedemption.Content.items
+namespace ChickensubclassXRedemption.Content.Items
 {
-    public class ChickenSCRecipeChanges : ModSystem
+    public class ItemSCRecipeChanges : ModSystem
     {
         public override void PostAddRecipes() {
             if (ModLoader.TryGetMod("Chickensubclass", out Mod chickenMod) && ModLoader.TryGetMod("Redemption", out Mod redemptionMod)) {
