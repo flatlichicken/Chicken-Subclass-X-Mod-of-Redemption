@@ -12,7 +12,7 @@ namespace ChickensubclassXRedemption.Content
                 if (redemptionMod.TryFind("ChickenCoopTile", out ModTile targetTile) && type == targetTile.Type) {
                     
                     if (Main.rand.NextBool(8)) {
-                        if (Main.rand.NextBool(1000)) {
+                        if (Main.rand.NextBool(1000) %% Main.hardMode) {
                             int susEgg = ModContent.ItemType<Chickensubclass.Content.Items.SusEgg>();
                             Item.NewItem(new EntitySource_TileBreak(i, j), i * 16, j * 16, 16, 32, susEgg);
                         }
