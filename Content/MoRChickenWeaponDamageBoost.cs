@@ -1,7 +1,7 @@
 using Terraria;
 using Terraria.ModLoader;
 using ChickensubclassXRedemption.Content.Items;
-using Chickensubclass.Content;
+using Chickensubclass.Content; 
 
 namespace ChickensubclassXRedemption.Content
 {
@@ -15,9 +15,8 @@ namespace ChickensubclassXRedemption.Content
         // list of weapons that get boosted
         int heldItemType = player.inventory[player.selectedItem].type;
 
-        return heldItemType == ModContent.ItemType<FlyingChicken>() ||
-
-               ChickenWeaponDamageBoost.IfUsingChickenWeapon(player);
+        return heldItemType == ModContent.ItemType<Chickensubclass.Content.Items.FlyingChicken>() ||
+                ChickenWeaponDamageBoost.IfUsingChickenWeapon(player);
     }
 }
 

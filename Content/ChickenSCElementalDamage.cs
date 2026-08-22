@@ -249,7 +249,7 @@ namespace ChickensubclassXRedemption.Content
                     }
                 }
 
-                foreach (string name in ExplosivelProjectileNames)
+                foreach (string name in ExplosiveProjectileNames)
                 {
                     if (chickenSubclass.TryFind(name, out ModProjectile proj))
                     {
