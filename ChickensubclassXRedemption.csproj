@@ -3,19 +3,19 @@
     <Import Project="..\tModLoader.targets" />
 
     <PropertyGroup>
+        <TargetFramework Condition="'$(TargetFramework)' == ''">net8.0</TargetFramework>
         <NoWarn>$(NoWarn);ChangeMagicNumberToID</NoWarn>
     </PropertyGroup>
 
-    <!-- Local project reference for Chickensubclass -->
     <ItemGroup>
-        <ProjectReference Include="..\Chickensubclass\Chickensubclass.csproj" />
-    </ItemGroup>
-
-    <!-- Remote or package reference fallback for Redemption -->
-    <ItemGroup>
-        <PackageReference Include="Redemption" Version="*">
-            <IncludeAssets>compile</IncludeAssets>
-        </PackageReference>
+        <Reference Include="Chickensubclass">
+            <HintPath>..\ModAssemblies\Chickensubclass_v1.4.2.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="Redemption">
+            <HintPath>..\ModAssemblies\Redemption_v0.8.0.4501.dll</HintPath>
+            <Private>False</Private> 
+        </Reference>
     </ItemGroup>
 
 </Project>
