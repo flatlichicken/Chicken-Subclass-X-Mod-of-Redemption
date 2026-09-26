@@ -1,17 +1,21 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-    <!-- Import tModLoader mod properties -->
     <Import Project="..\tModLoader.targets" />
 
-    <!-- General -->
     <PropertyGroup>
         <NoWarn>$(NoWarn);ChangeMagicNumberToID</NoWarn>
     </PropertyGroup>
 
-    <!-- Mod References -->
+    <!-- Local project reference for Chickensubclass -->
     <ItemGroup>
-        <Reference Include="Chickensubclass" />
-        <Reference Include="Redemption" />
+        <ProjectReference Include="..\Chickensubclass\Chickensubclass.csproj" />
+    </ItemGroup>
+
+    <!-- Remote or package reference fallback for Redemption -->
+    <ItemGroup>
+        <PackageReference Include="Redemption" Version="*">
+            <IncludeAssets>compile</IncludeAssets>
+        </PackageReference>
     </ItemGroup>
 
 </Project>
